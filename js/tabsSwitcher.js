@@ -213,28 +213,45 @@ arrowRight.addEventListener('click', () => {
 });
 
 let touchStartX = null;
+let touchEndX = null;
 
-window.addEventListener('touchstart', (event) => {
-  touchStartX = event.touches[0].clientX;
+// Обработчик события touchstart
+rTabsParent.addEventListener('touchstart', (event) => {
+  const touch = event.touches[0];
+  touchStartX = touch.clientX;
 });
 
-window.addEventListener('touchmove', (event) => {
-  if (touchStartX) {
-    const touchEndX = event.touches[0].clientX;
-    const deltaX = touchEndX - touchStartX;
-    if (deltaX > 50) {
-      stopInterval();
-      currentTab = (currentTab - 1 + rTabs.length) % rTabs.length;
-      rHideTabContent();
-      rShowTabContent(currentTab);
-      startInterval();
-    } else if (deltaX < -50) {
-      stopInterval();
-      currentTab = (currentTab + 1) % rTabs.length;
-      rHideTabContent();
-      rShowTabContent(currentTab);
-      startInterval();
-    }
-    touchStartX = null;
+// Обработчик события touchmove
+rTabsParent.addEventListener('touchmove', (event) => {
+  if (touchStartX === null) {
+    return;
   }
+
+  const touch = event.touches[0];
+  touchEndX = touch.clientX;
+});
+
+// Обработчик события touchend
+rTabsParent.addEventListener('touchend', () => {
+  console.log(touchStartX, touchEndX)
+  const touchDiff = touchStartX - touchEndX;
+
+  if (touchDiff > 0) {
+    // Свайп влево - переключаем на следующий таб
+    stopInterval();
+    currentTab = (currentTab + 1) % rTabs.length;
+    rHideTabContent();
+    rShowTabContent(currentTab);
+    startInterval();
+  } else if (touchDiff < 0) {
+    // Свайп вправо - переключаем на предыдущий таб
+    stopInterval();
+    currentTab = (currentTab - 1 + rTabs.length) % rTabs.length;
+    rHideTabContent();
+    rShowTabContent(currentTab);
+    startInterval();
+  }
+
+  touchStartX = null;
+  touchEndX = null;
 });
