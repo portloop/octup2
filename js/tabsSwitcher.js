@@ -192,3 +192,49 @@ rTabsParent.addEventListener('click', (event) => {
     })
   }
 });
+
+const arrowLeft = document.querySelector('.arrow-left');
+const arrowRight = document.querySelector('.arrow-right');
+
+arrowLeft.addEventListener('click', () => {
+  stopInterval();
+  currentTab = (currentTab - 1 + rTabs.length) % rTabs.length; // переключение на предыдущий таб
+  rHideTabContent();
+  rShowTabContent(currentTab);
+  startInterval();
+});
+
+arrowRight.addEventListener('click', () => {
+  stopInterval();
+  currentTab = (currentTab + 1) % rTabs.length; // переключение на следующий таб
+  rHideTabContent();
+  rShowTabContent(currentTab);
+  startInterval();
+});
+
+let touchStartX = null;
+
+window.addEventListener('touchstart', (event) => {
+  touchStartX = event.touches[0].clientX;
+});
+
+window.addEventListener('touchmove', (event) => {
+  if (touchStartX) {
+    const touchEndX = event.touches[0].clientX;
+    const deltaX = touchEndX - touchStartX;
+    if (deltaX > 50) {
+      stopInterval();
+      currentTab = (currentTab - 1 + rTabs.length) % rTabs.length;
+      rHideTabContent();
+      rShowTabContent(currentTab);
+      startInterval();
+    } else if (deltaX < -50) {
+      stopInterval();
+      currentTab = (currentTab + 1) % rTabs.length;
+      rHideTabContent();
+      rShowTabContent(currentTab);
+      startInterval();
+    }
+    touchStartX = null;
+  }
+});

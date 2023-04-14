@@ -1,14 +1,4 @@
-@media screen and (max-width: 1580px) {
-    .review-box {
-        margin-right: -50px;
-    }
-}
 
-@media screen and (max-width: 1470px) {
-    .review-box {
-        margin-right: 0px;
-    }
-}
 
 @media screen and (max-width: 1470px) {
     .partners-section .slick-list {
@@ -36,9 +26,7 @@
 }
 
 @media screen and (max-width: 1330px) {
-    .review-box {
-        max-width: 790px;
-    }
+   
 
     .main-description.integration-block {
         padding-left: 20px;
@@ -61,15 +49,7 @@
     }
 }
 
-@media screen and (max-width: 1285px) {
-    .review-box {
-        max-width: 700px;
-    }
 
-    .review-text {
-        font-size: 15px;
-    }
-}
 
 @media screen and (max-width: 1235px) {
     .main-text {
@@ -167,17 +147,8 @@
     }
 
 
-    .review-section .quote-img {
-        width: 100px;
-        height: 80px;
-        top: -35px;
-        left: -30px;
-    }
+   
 
-    .review-section .quote-img svg {
-        width: 100%;
-        height: 100%;
-    }
 
     .lead-section .lead-description {
         font-size: 16px;
@@ -345,25 +316,9 @@
         margin-bottom: 100px;
     }
 
-    .review-section-container {
-        flex-direction: column;
-    }
+  
 
-    .review-section .review-box {
-        margin-bottom: 50px;
-    }
-
-    .review-section .review-switcher {
-        margin-bottom: 85px;
-    }
-
-    .review-section .text-title br {
-        display: none;
-    }
-
-    .review-section .text-title {
-        margin-bottom: 70px;
-    }
+    
 
     .lead-section {
         margin-top: 0;
@@ -558,10 +513,6 @@
         max-width: 700px;
     }
 
-    .review-section .review-box {
-        border-radius: 50px 0 0 50px;
-        margin-right: -63px;
-    }
 
     .first-tab,
     .second-tab {
@@ -569,15 +520,8 @@
     }
 
 
-    .review-section {
-        overflow: hidden;
-    }
 
-    .review-section .text-title {
-        max-width: 328px;
-        font-size: 27px;
-        text-align: center;
-    }
+  
 }
 
 @media screen and (max-width: 880px) {
@@ -626,9 +570,7 @@
         font-size: 16px;
     }
 
-    .review-section .text-title {
-        margin-top: 40px;
-    }
+   
 
     .carousel-item {
         max-width: 80px;
@@ -640,31 +582,10 @@
         font-size: 26px;
     }
 
-    .review-section .review-box {
-        width: 431px;
-        height: 530px;
-        box-shadow: 8px 8px 24px rgba(80, 75, 90, 0.08);
-        font-size: 15px;
-        line-height: 20px;
-        padding: 36px 16px 50px 24px;
-        border-radius: 50px;
-        margin-right: 0;
-    }
-
     .author-photo {
         right: 20px;
         bottom: -40px;
     }
-
-    .review-author {
-        margin-right: 180px;
-    }
-
-    .review-box.purple .review-author {
-        margin-top: 200px;
-    }
-
-
 
     .focus-section {
         margin-top: 40px;
@@ -684,9 +605,6 @@
         margin: 0 auto;
     }
 
-    .review-section .text-title {
-        margin-top: 22px;
-    }
 
     .footer-integrations {
         margin-top: 30px;
@@ -875,10 +793,6 @@
         align-items: center;
     }
 
-    .review-section .review-box {
-        padding-right: 25px;
-    }
-
     .auth-section .lead-btn {
         margin-right: 15px;
     }
@@ -1036,30 +950,8 @@
         margin-bottom: 92px;
     }
 
-    .review-section .review-box {
-        width: 331px;
-        height: 600px;
-        border-radius: 50px 0 0 50px;
-        margin-right: -215px;
-        font-size: 15px;
-        line-height: 20px;
-        margin-top: 13px;
-    }
-
     .footer-container {
         align-items: center;
-    }
-
-    .review-author {
-        max-width: 178px;
-        text-align: unset;
-        width: 70%;
-
-    }
-
-    .author-photo {
-        width: 102px;
-        height: 102px;
     }
 
     .lead-section .text-title {
@@ -1116,23 +1008,8 @@
 }
 
 
-@media screen and (max-width: 520px) {
-    .review-section .review-box {
-        margin-right: -160px;
-        padding-right: 40px;
-    }
-
-    .review-text {
-        font-size: 14px;
-    }
-}
-
-
-
 @media screen and (max-width: 490px) {
-    .review-section .review-box {
-        margin-right: -155px;
-    }
+
 
     .logo-section-container {
         max-width: 300px;
@@ -1142,16 +1019,9 @@
 
 }
 
-@media screen and (max-width: 481px) {
-    .review-section .review-box {
-        margin-right: -150px;
-    }
-}
 
 @media screen and (max-width: 460px) {
-    .review-section .review-box {
-        margin-right: -135px;
-    }
+   
 
     .partner-text-desc {
         font-size: 16px;
@@ -1166,9 +1036,7 @@
 }
 
 @media screen and (max-width: 430px) {
-    .review-section .review-box {
-        margin-right: -115px;
-    }
+   
 
     .main-description-container .main-desc {
         font-size: 15px;
@@ -1177,27 +1045,5 @@
     .partner-form input,
     select {
         font-size: 11px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .review-section .review-box {
-        margin-right: -95px;
-    }
-}
-
-@media screen and (max-width: 460px) {
-    .review-section .review-box {
-        margin-right: -57px;
-    }
-}
-
-@media screen and (max-width: 378px) {
-    .review-section .review-box {
-        margin-right: -45px;
-    }
-
-    .review-section .review-box {
-        padding-right: 22px;
     }
 }
