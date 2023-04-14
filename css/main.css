@@ -1139,6 +1139,7 @@ select {
     top: calc(50% - 16px);
     opacity: 0.4;
     transition: 0.3s;
+    display: none;
 }
 
 .arrow-left {
@@ -1147,6 +1148,7 @@ select {
     top: calc(50% - 16px);
     opacity: 0.4;
     transition: 0.3s;
+    display: none;
 }
 
 .arrow-left:hover, .arrow-right:hover{
