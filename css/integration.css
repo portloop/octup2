@@ -1,0 +1,99 @@
+.main-description-container,
+.logo-section-container {
+    max-width: 1312px;
+    margin: 0 auto;
+}
+
+.main-description-container {
+    padding-top: 115px;
+    display: flex;
+    align-items: center;
+}
+
+.main-text {
+    max-width: 638px;
+    margin-right: 301px;
+}
+
+.logo-section{
+    margin-bottom: 112px;
+}
+
+.int-image {
+    width: 144px;
+    height: 144px;
+    left: 918px;
+    top: 494px;
+    background: #F8F7FB;
+    border: 8px solid #F6F5F9;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.75), 8px 8px 24px rgba(80, 75, 90, 0.08);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.int-image img {
+    width: 75%;
+}
+
+
+.int-image .tik-tok {
+    width: 50%;
+}
+
+.int-image .instagram {
+    width: 40%;
+}
+
+.logo-section-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #504B5A;
+
+}
+
+.logo-int-item {
+    display: flex;
+    flex-direction: column;
+    width: 226px;
+    align-items: center;
+    margin-top: 120px;
+}
+
+@keyframes fadeInInt {
+    0% {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.element-animation-int{
+    animation: fadeInInt 1.2s ease-in-out;
+    transition: 0.4s;
+}
+
+.int-image{
+    margin-bottom: 33px;
+}
+
+@media screen and (max-width: 490px) {
+    .logo-section-container{
+        max-width: 300px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .logo-int-item{
+        margin-top: 60px;
+    }
+}

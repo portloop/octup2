@@ -1,0 +1,1203 @@
+@media screen and (max-width: 1580px) {
+    .review-box {
+        margin-right: -50px;
+    }
+}
+
+@media screen and (max-width: 1470px) {
+    .review-box {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1470px) {
+    .partners-section .slick-list {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+
+    .focus-section,
+    header,
+    .partners-section,
+    .rates-section,
+    .business-benefits,
+    .why-section,
+    .review-section,
+    .lead-section,
+    footer,
+    .partnerspage-section-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 1330px) {
+    .review-box {
+        max-width: 790px;
+    }
+
+    .main-description.integration-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .logo-section.integration-block {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .logo-int-item {
+        width: 228px;
+    }
+
+    .logo-section-container {
+        flex-wrap: wrap;
+        max-width: 670px;
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    .review-box {
+        max-width: 700px;
+    }
+
+    .review-text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .main-text {
+        margin-right: 0 !important;
+
+    }
+
+    .main-description-container {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .text-title {
+        font-size: 26px;
+    }
+
+    .focus-section .text-title {
+        font-size: 32px;
+    }
+
+    .partner-form {
+        max-width: 450px;
+    }
+
+
+
+    .focus-section .lead-btn {
+        font-size: 14px;
+    }
+
+    .focus-section .benefit {
+        font-size: 12px;
+    }
+
+    .focus-section .focus-animation {
+        max-width: 440px;
+    }
+
+    .focus-section .focus-animation img {
+        width: 100%;
+    }
+
+
+    .rates-section .card-title {
+        font-size: 24px;
+    }
+
+    .rates-section .card-decription {
+        font-size: 16px;
+    }
+
+    .rates-section .rate-card-text {
+        max-width: 480px;
+    }
+
+    .rates-section .rate-card-text .lead-btn {
+        font-size: 16px;
+    }
+
+    .rates-section .rate-card-img {
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 26px;
+    }
+
+    .rates-section .rate-card-img img {
+        width: 100%;
+    }
+
+    .rate-card.sec .rate-card-text {
+        max-width: 500px !important;
+    }
+
+    .rates-section .rate-section-tabs {
+        margin-bottom: 80px;
+    }
+
+    .business-benefits-section .bb-tab-img {
+        width: 480px;
+    }
+
+    .business-benefits-section .bb-tab-img img {
+        width: 100%;
+    }
+
+
+
+    .why-section .wh-title {
+        font-size: 18px;
+    }
+
+    .why-section .wh-desc {
+        font-size: 14px;
+    }
+
+
+    .review-section .quote-img {
+        width: 100px;
+        height: 80px;
+        top: -35px;
+        left: -30px;
+    }
+
+    .review-section .quote-img svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .lead-section .lead-description {
+        font-size: 16px;
+    }
+
+    .lead-section .lead-text {
+        max-width: 520px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .business-benefits-section .bb-tab .bb-tab-text {
+        font-size: 15px;
+    }
+
+    .business-benefits-section .bb-tab-img {
+        max-width: 430px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    footer .footer-container a {
+        font-size: 11px;
+    }
+
+    .partner-benefit-desc br {
+        display: none;
+    }
+
+    .partner-benefit-desc {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .focus-section .focus-section-container {
+        flex-direction: column;
+    }
+
+    .focus-section .focus-text {
+        max-width: 800px;
+    }
+
+    .focus-section .text-description {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 44px;
+        max-width: 577px;
+    }
+
+    .focus-section .benefit {
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    .focus-section .focus-input {
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+
+    .focus-section .focus-benefits {
+        justify-content: space-between;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .focus-section .benefit {
+        margin: 0;
+    }
+
+    .focus-section .focus-animation {
+        max-width: 537px;
+        max-height: 500px;
+        margin-top: 40px;
+    }
+
+    .partners-section .slick-list {
+        height: 160px;
+    }
+
+    .partners-section {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .text-title {
+        font-size: 32px;
+    }
+
+    .rates-section .rate-card-text {
+        max-width: 400px;
+    }
+
+    .rates-section .card-decription {
+        font-size: 16px;
+    }
+
+    .rates-section .card-title {
+        font-size: 26px;
+    }
+
+    .rates-section .rate-card-text .lead-btn {
+        font-size: 15px;
+    }
+
+    .rates-section .rate-card-img {
+        max-width: 400px;
+    }
+
+    .business-benefits-section .bb-tab-img {
+        max-width: 415px;
+    }
+
+    .business-benefits-section .bb-tab .bb-tab-text {
+        font-size: 14px;
+        max-width: 350px;
+    }
+
+    .business-benefits-section {
+        margin-bottom: 85px;
+    }
+
+    .why-section .wh-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-section-container .text-title {
+        margin-bottom: 40px;
+    }
+
+    .why-section .wh-image {
+        max-width: 120px;
+        max-height: 120px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .why-section .wh-item br {
+        display: none;
+    }
+
+    .why-section .wh-title {
+        font-size: 26px;
+        max-width: none;
+    }
+
+    .why-section .wh-desc {
+        font-size: 16px;
+    }
+
+    .why-section .wh-item {
+        margin-bottom: 60px;
+        max-width: 600px;
+    }
+
+    .why-section .wh-container {
+        margin-bottom: 0;
+    }
+
+    .why-section {
+        margin-bottom: 100px;
+    }
+
+    .review-section-container {
+        flex-direction: column;
+    }
+
+    .review-section .review-box {
+        margin-bottom: 50px;
+    }
+
+    .review-section .review-switcher {
+        margin-bottom: 85px;
+    }
+
+    .review-section .text-title br {
+        display: none;
+    }
+
+    .review-section .text-title {
+        margin-bottom: 70px;
+    }
+
+    .lead-section {
+        margin-top: 0;
+        margin-bottom: 63px;
+    }
+
+    .lead-section .lead-section-container {
+        flex-direction: column;
+    }
+
+    .lead-section .lead-text {
+        max-width: 800px;
+        text-align: center;
+    }
+
+    .lead-text .lead-img-menu {
+        flex-direction: row;
+    }
+
+    .lead-text .lead-img-menu {
+        justify-content: space-around;
+        margin-bottom: 47px;
+    }
+
+    .lead-form .form-text {
+        margin-bottom: 31px;
+    }
+
+    .focus-section .text-title {
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .black-btn {
+        display: none;
+    }
+
+    .lead-section {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .business-benefits-container .bb-tab.showTab {
+        flex-direction: column;
+    }
+
+    .business-benefits-section .bb-tab .bb-tab-text {
+        text-align: center;
+        margin-bottom: 44px;
+        font-size: 18px;
+        max-width: 600px;
+    }
+
+    .partnerspage-section.element-animation {
+        animation: none;
+        opacity: 1;
+    }
+
+    .why-section {
+        margin-bottom: 70px;
+    }
+
+    .business-benefits-section .bb-tab br {
+        display: none;
+    }
+
+    .business-benefits-container .bb-tab {
+        height: auto;
+    }
+
+    .business-benefits-section .bb-tab-img {
+        max-width: 580px;
+    }
+
+    .partner-benefit-desc {
+        font-size: 14px;
+        max-width: 350px;
+    }
+
+    .showTab {
+        flex-direction: column;
+    }
+
+    .rates-section .rate-card-text {
+        max-width: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .rates-section .card-title {
+        font-size: 22px;
+        max-width: 600px;
+    }
+
+    .rates-section .item-text {
+        max-width: 580px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .rates-section .third .card-title {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .item-text svg {
+        width: 70px;
+        height: 70px;
+    }
+
+    .rates-section .card-decription.th {
+        max-width: 561px !important;
+        margin: 0 auto;
+    }
+
+    .rates-section .card-title {
+        margin-bottom: 50px;
+    }
+
+    .rate-card {
+        position: relative;
+    }
+
+    .rates-section .lead-btn {
+        position: absolute;
+        bottom: -100px;
+        left: calc(50% - 110px);
+    }
+
+}
+
+
+@media screen and (max-width: 970px) {
+    .logo-section-container.element-animation.fadeBlock {
+        animation: none;
+        opacity: 1;
+    }
+
+    .logo-section-container.element-animation {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 937px) {
+    .bb-tab-menu {
+        flex-wrap: wrap;
+        max-width: 396px;
+    }
+
+    .partnerspage-section-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partner-benefit-desc {
+        max-width: none;
+    }
+
+    .partner-benefit-text {
+        text-align: left;
+    }
+
+    .partner-text-desc {
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+
+    .partner-form-img {
+        margin-bottom: 50px;
+    }
+
+    .partnerspage-section {
+        padding-top: 40px;
+    }
+
+    .partner-text {
+        text-align: center;
+    }
+
+    .business-benefits-container .bb-tab-menu .bb-tab-item {
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer .footer-container {
+        max-width: 700px;
+    }
+
+    .review-section .review-box {
+        border-radius: 50px 0 0 50px;
+        margin-right: -63px;
+    }
+
+    .first-tab,
+    .second-tab {
+        margin-top: -50px !important;
+    }
+
+
+    .review-section {
+        overflow: hidden;
+    }
+
+    .review-section .text-title {
+        max-width: 328px;
+        font-size: 27px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .focus-section .focus-animation {
+        margin-top: -40px;
+        z-index: -1;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .focus-section .focus-section-container {
+        position: relative;
+        margin-bottom: 500px;
+        z-index: 2;
+    }
+
+    body {
+        z-index: -1;
+    }
+
+    .focus-animation {
+        position: absolute;
+        bottom: -470px;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .partners-section {
+        margin-top: -60px;
+    }
+
+    .business-benefits-container .bb-tab-menu {
+        max-width: 400px;
+    }
+
+    .business-benefits-container .business-benefits-title {
+        max-width: 400px;
+        font-size: 26px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .business-benefits-container .bb-tab-menu .bb-tab-item {
+        font-size: 16px;
+    }
+
+    .review-section .text-title {
+        margin-top: 40px;
+    }
+
+    .carousel-item {
+        max-width: 80px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .text-title {
+        font-size: 26px;
+    }
+
+    .review-section .review-box {
+        width: 431px;
+        height: 530px;
+        box-shadow: 8px 8px 24px rgba(80, 75, 90, 0.08);
+        font-size: 15px;
+        line-height: 20px;
+        padding: 36px 16px 50px 24px;
+        border-radius: 50px;
+        margin-right: 0;
+    }
+
+    .author-photo {
+        right: 20px;
+        bottom: -40px;
+    }
+
+    .review-author {
+        margin-right: 180px;
+    }
+
+    .review-box.purple .review-author {
+        margin-top: 200px;
+    }
+
+
+
+    .focus-section {
+        margin-top: 40px;
+    }
+
+    .rate-section-tabs .rate-tab {
+        font-size: 15px;
+        max-width: 200px;
+    }
+
+    .why-section .wh-title {
+        font-size: 22px;
+    }
+
+    .why-section .wh-desc {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .review-section .text-title {
+        margin-top: 22px;
+    }
+
+    .footer-integrations {
+        margin-top: 30px;
+        position: relative;
+    }
+
+    footer {
+        padding-top: 30px;
+        color: #F8F7FB;
+    }
+
+    .footer-integrations .logo {
+        position: absolute;
+        top: -40px;
+        right: calc(50% - 72px);
+    }
+
+    .footer-integrations a {
+        margin: 0 20px;
+        color: #F8F7FB;
+    }
+
+    .footer-terms {
+        margin-top: 30px;
+        position: relative;
+    }
+
+    .footer-terms span {
+        position: absolute;
+        top: -20px;
+        border-right: none;
+        color: #F8F7FB;
+    }
+
+    .footer-terms {
+        font-size: 11px;
+        max-height: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    /* .main-description-container {
+        flex-direction: column;
+    } */
+
+    .main-img {
+        display: none;
+    }
+
+    .main-description-container {
+        padding-top: 50px !important;
+    }
+}
+
+
+@media screen and (max-width: 635px) {
+    .focus-section .text-title {
+        font-size: 27px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        margin-bottom: 35px;
+    }
+
+    .partner-benefit-title {
+        font-size: 15px;
+    }
+
+    .partner-form input,
+    select {
+        font-size: 12px;
+    }
+
+    .partner-form .lead-btn {
+        font-size: 15px;
+    }
+
+    .focus-section .text-description {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        max-width: 500px;
+        margin-bottom: 40px;
+    }
+
+    .focus-section .focus-animation {
+        max-width: 480px;
+        max-height: 480px;
+        margin-top: -100px;
+    }
+
+    .partners-section {
+        margin-top: -100px;
+    }
+
+    .lead-text .lead-item {
+        flex-direction: column;
+        max-width: 90px;
+        font-size: 13px;
+        line-height: 18px;
+        align-items: center;
+    }
+
+    .lead-item br {
+        display: block;
+    }
+
+    .lead-text .lead-item svg {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .text-title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .focus-section .focus-input {
+        flex-direction: column;
+        align-items: center;
+        max-width: 396px;
+        margin: 0 auto;
+    }
+
+    .focus-section .lead-input {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .focus-section .lead-btn {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .focus-section .benefit {
+        flex-direction: column;
+        max-width: 90px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .benefit br {
+        display: block;
+    }
+
+    .focus-section .focus-benefits {
+        max-width: 400px;
+    }
+
+    .focus-section .focus-animation {
+        max-width: 400px;
+        max-height: 400px;
+        bottom: -380px;
+    }
+
+    .partners-section {
+        margin-top: -160px;
+    }
+
+    .partners-section-container .text-title {
+        font-size: 27px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .partners-carousel .slick-slide {
+        width: 72px;
+        height: 72px;
+    }
+
+
+}
+
+@media screen and (max-width: 550px) {
+    .header-mobile-menu {
+        display: block;
+    }
+
+    .auth-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .review-section .review-box {
+        padding-right: 25px;
+    }
+
+    .auth-section .lead-btn {
+        margin-right: 15px;
+    }
+
+    .rates-section {
+        padding-top: 20px;
+    }
+
+    .rates-section-container {
+        padding-top: 29px;
+        background: linear-gradient(180deg, #FFFFFF -0.08%, rgba(255, 255, 255, 0) 100%);
+        border-radius: 8px;
+    }
+
+    .partner-benefit-image svg {
+        max-width: 42px;
+        max-height: 42px;
+    }
+
+    .partner-benefit-image {
+        margin-right: 10px;
+    }
+
+    .partner-form-img svg {
+        max-width: 180px;
+    }
+
+    .partner-form-img {
+        margin-bottom: 20px;
+    }
+
+    .rates-section .rate-section-tabs {
+        max-width: 344px;
+        max-height: 60px;
+        margin-bottom: 70px;
+    }
+
+    .rate-section-tabs .rate-tab:last-child {
+        padding-top: 6px;
+        padding-bottom: 0;
+        order: 3;
+    }
+
+    .rate-section-tabs .rate-tab:first-child {
+        order: 2;
+    }
+
+
+    /* Header Mobile menu */
+    .mobile-header-menu-container.mobile-active {
+        display: block;
+    }
+
+
+    .rates-section .third .card-title {
+        font-size: 27px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .item-text .desc-text {
+        font-size: 15px;
+        line-height: 20px;
+        max-width: 266px;
+        text-align: left;
+    }
+
+    .item-text svg {
+        width: 48px;
+        height: 48px;
+    }
+
+    .rate-card.sec .rate-card-img {
+        max-width: 360px;
+    }
+
+    .rates-section .rate-card-text .lead-btn {
+        width: 80%;
+        left: 45px;
+    }
+
+    .business-benefits-container .business-benefits-title {
+        margin-top: 30px;
+        font-size: 27px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        max-width: 251px;
+    }
+
+    .business-benefits-container .bb-tab-menu {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 auto;
+        margin-bottom: 55px;
+    }
+
+    .business-benefits-container .bb__tab-container {
+        padding: 27px 16px 35px 16px;
+    }
+
+    .why-section-container .text-title {
+        font-size: 27px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        margin-bottom: 40px;
+    }
+
+    .why-section .wh-image {
+        max-width: 120px;
+        max-height: 120px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .why-section .wh-image svg {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .why-section .wh-title {
+        font-size: 17px;
+        line-height: 22px;
+        text-align: center;
+        max-width: 220px;
+        margin-bottom: 12px;
+    }
+
+    .why-section .wh-desc {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .why-section-container .lead-btn {
+        width: 80%;
+    }
+
+    .business-benefits-section .bb-tab-img {
+        width: 90%;
+    }
+
+    .business-benefits-section .bb-tab-img img {
+        width: 100%;
+    }
+
+    .business-benefits-section .bb-tab .bb-tab-text {
+        max-width: 320px;
+    }
+
+    .why-section {
+        margin-bottom: 92px;
+    }
+
+    .review-section .review-box {
+        width: 331px;
+        height: 600px;
+        border-radius: 50px 0 0 50px;
+        margin-right: -215px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 13px;
+    }
+
+    .footer-container {
+        align-items: center;
+    }
+
+    .review-author {
+        max-width: 178px;
+        text-align: unset;
+        width: 70%;
+
+    }
+
+    .author-photo {
+        width: 102px;
+        height: 102px;
+    }
+
+    .lead-section .text-title {
+        font-size: 27px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        max-width: 348px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .lead-title br {
+        display: block;
+    }
+
+    .lead-section .lead-description {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        max-width: 290px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .lead-form .form-text {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        margin-bottom: 31px;
+    }
+
+    .lead-form {
+        width: 80%;
+    }
+
+    .auth-section a {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .focus-animation svg{
+        width: 115%;
+        height: 115%;
+        transform: translate3d(-20px, 0px, 0px);
+
+    }
+
+    .card-title br{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    .review-section .review-box {
+        margin-right: -160px;
+        padding-right: 40px;
+    }
+
+    .review-text {
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width: 490px) {
+    .review-section .review-box {
+        margin-right: -155px;
+    }
+
+    .logo-section-container {
+        max-width: 300px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 481px) {
+    .review-section .review-box {
+        margin-right: -150px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .review-section .review-box {
+        margin-right: -135px;
+    }
+
+    .partner-text-desc {
+        font-size: 16px;
+    }
+
+    .lead-form .lead-input {
+        border: 1px solid #504B5A;
+        box-shadow: inset 2px 2px 8px rgba(80, 75, 90, 0.32);
+        border-radius: 4px;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    .review-section .review-box {
+        margin-right: -115px;
+    }
+
+    .main-description-container .main-desc {
+        font-size: 15px;
+    }
+
+    .partner-form input,
+    select {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .review-section .review-box {
+        margin-right: -95px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .review-section .review-box {
+        margin-right: -57px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .review-section .review-box {
+        margin-right: -45px;
+    }
+
+    .review-section .review-box {
+        padding-right: 22px;
+    }
+}
