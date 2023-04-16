@@ -1195,7 +1195,8 @@ select {
     width: 100%;
     padding: 8px 0;
     background: rgba(40, 40, 49, 0.7);
-
+    display: none;
+    z-index: 125;
 
 }
 
@@ -1219,20 +1220,22 @@ text-align: center;
 color: #282831;
 font-family: 'PoppinsB', sans-serif;
 background-color: #fff;
-padding: 8px 15px;
+padding: 8px 20px;
 border-radius: 8px;
 cursor: pointer;
 }
 
 .decline-cookie{
     cursor: pointer;
+    font-family: 'PoppinsB', sans-serif;
+    margin-left: 8px;
 }
 
 
 .cookie-icon {
     height: 16px;
     width: 16px;
-    margin-right: -20px;
+    margin-right: 10px;
 }
 
 .cookie-text a {
@@ -1242,6 +1245,36 @@ cursor: pointer;
 
 .close-cookie-agreement{
     position: absolute;
-    top: 16px;
+    top: calc(50% - 12px);
     right: 24px;
+    cursor: pointer;
+}
+
+.cookie-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 720px;
+}
+
+.agreement-buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+.hideCookie {
+    animation: hideCookies 1s;
+    transition: 1s;
+}
+
+@keyframes hideCookies {
+    from {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    To {
+        transform: translate(0, 50px);
+        opacity: 0;
+    }
 }

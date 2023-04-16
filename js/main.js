@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // Smooth scroll to from on click lead button
   const buttons = document.querySelectorAll('.lead-btn'),
     leadForm = document.querySelector('footer');
-    
+
 
   buttons.forEach((item => {
     item.addEventListener('click', (e) => {
@@ -64,7 +64,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
 
- 
+
+
+
+
 
 
 
