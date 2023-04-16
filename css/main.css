@@ -1058,7 +1058,7 @@ select {
     margin-bottom: 25px;
 }
 
-.review-box .review-text{
+.review-box .review-text {
     height: 195px;
     margin-bottom: 39px;
 }
@@ -1069,7 +1069,7 @@ select {
     font-size: 15px;
 }
 
-.quotes-text{
+.quotes-text {
     display: none;
 }
 
@@ -1164,7 +1164,8 @@ select {
     /* display: none; */
 }
 
-.arrow-left:hover, .arrow-right:hover{
+.arrow-left:hover,
+.arrow-right:hover {
     cursor: pointer;
     opacity: 1;
 }
@@ -1184,4 +1185,63 @@ select {
 
 .readmore {
     display: none;
+}
+
+/* Cookies */
+.coockie-agreement {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 0;
+    background: rgba(40, 40, 49, 0.7);
+
+
+}
+
+.coockie-agr-container {
+    max-width: 925px;
+    margin: 0 auto;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.accept-cookie{
+    font-size: 11px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #282831;
+font-family: 'PoppinsB', sans-serif;
+background-color: #fff;
+padding: 8px 15px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.decline-cookie{
+    cursor: pointer;
+}
+
+
+.cookie-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: -20px;
+}
+
+.cookie-text a {
+    color: #00A8A8;
+    text-decoration: none;
+}
+
+.close-cookie-agreement{
+    position: absolute;
+    top: 16px;
+    right: 24px;
 }
