@@ -1211,21 +1211,21 @@ select {
     line-height: 18px;
 }
 
-.accept-cookie{
+.accept-cookie {
     font-size: 11px;
-line-height: 16px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #282831;
-font-family: 'PoppinsB', sans-serif;
-background-color: #fff;
-padding: 8px 20px;
-border-radius: 8px;
-cursor: pointer;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #282831;
+    font-family: 'PoppinsB', sans-serif;
+    background-color: #fff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-.decline-cookie{
+.decline-cookie {
     cursor: pointer;
     font-family: 'PoppinsB', sans-serif;
     margin-left: 8px;
@@ -1243,7 +1243,7 @@ cursor: pointer;
     text-decoration: none;
 }
 
-.close-cookie-agreement{
+.close-cookie-agreement {
     position: absolute;
     top: calc(50% - 12px);
     right: 24px;
@@ -1273,6 +1273,7 @@ cursor: pointer;
         transform: translate(0, 0);
         opacity: 1;
     }
+
     To {
         transform: translate(0, 50px);
         opacity: 0;

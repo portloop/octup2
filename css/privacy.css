@@ -1,18 +1,18 @@
-.privacy-container{
+.privacy-container {
     max-width: 1312px;
     margin: 0 auto;
     padding-top: 120px;
     font-size: 15px;
-line-height: 24px;
-color: #504B5A;
-margin-bottom: 207px;
+    line-height: 24px;
+    color: #504B5A;
+    margin-bottom: 207px;
 }
 
 .privacy-container.terms {
     margin-bottom: 76px;
 }
 
-.privacy-title{
+.privacy-title {
     margin-bottom: 76px;
 }
 
@@ -24,7 +24,7 @@ margin-bottom: 207px;
     margin-bottom: 40px;
 }
 
-.mt-4{
+.mt-4 {
     margin-top: 40px;
 }
 

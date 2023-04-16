@@ -220,7 +220,7 @@
         padding-right: 20px;
     }
 
-    .agreement-buttons{
+    .agreement-buttons {
         margin-top: 10px;
     }
 }
@@ -596,7 +596,7 @@
         max-width: 560px;
     }
 
-    .close-cookie-agreement{
+    .close-cookie-agreement {
         top: 5px;
         right: 10px;
     }
@@ -777,13 +777,32 @@
     .footer-terms {
         margin-top: 30px;
         position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-terms .footer-social {
+        margin-left: -10px;
+        margin-top: 15px;
+        order: 1;
+        padding-bottom: 20px;
+    }
+
+    footer {
+        padding-bottom: 60px;
+    }
+
+    .footer-main-info {
+        order: 2;
     }
 
     .footer-terms span {
         position: absolute;
-        top: -20px;
+        top: 15px;
         border-right: none;
         color: #F8F7FB;
+        padding-right: 0;
     }
 
     .footer-terms {
@@ -937,7 +956,7 @@
         margin-top: 5px;
     }
 
-    .coockie-agr-container{
+    .coockie-agr-container {
         font-size: 10px;
         padding-left: 5px;
         padding-right: 20px;
@@ -958,7 +977,7 @@
         margin-bottom: 40px;
     }
 
-    .review-box .readmore{
+    .review-box .readmore {
         max-width: 85px;
         margin-bottom: 40px;
     }
@@ -977,8 +996,8 @@
         margin-left: 60px;
     }
 
-   
-    .review-box .author-name{
+
+    .review-box .author-name {
         margin-left: 34px;
         width: 160px;
         margin-bottom: -50px;
@@ -990,7 +1009,7 @@
         bottom: -25px;
     }
 
-    .review-switcher{
+    .review-switcher {
         margin-top: 45px;
     }
 }

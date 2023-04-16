@@ -257,33 +257,3 @@ rTabsParent.addEventListener('touchend', () => {
   touchStartX = null;
   touchEndX = null;
 });
-
-// Reading more function
-const readBtn = document.querySelectorAll('.readmore');
-
-readBtn.forEach((item) => {
-  item.addEventListener('click', (e) => {
-  let target = e.target;
-    target.previousElementSibling.lastElementChild.style.cssText ='display: inline';
-    target.previousElementSibling.firstElementChild.style.cssText ='display: none';
-    target.style.cssText = 'display: none;'
-  })
-})
-
-let content = document.querySelectorAll('.more-text');
-  let query = document.querySelectorAll('.quotes-text');
-
-function removeReviewContent () {
-  content.forEach((item) => {
-    item.style.cssText = 'display: none';
-  })
-
-  query.forEach((item) => {
-    item.style.cssText = 'display: inline';
-  })
-
-  readBtn.forEach((item) => {
-    item.style.cssText = 'display: flex';
-  })
-
-}
