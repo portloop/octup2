@@ -147,7 +147,7 @@ let intervalId = null; // идентификатор интервала
 function rHideTabContent() {
   rTabsContent.forEach(item => {
     item.classList.add('hideTab');
-    item.classList.remove('showTab', 'fadeReviewTab');
+    item.classList.remove('showTabR', 'fadeReviewTab');
   })
 
   rTabs.forEach(item => {
@@ -156,7 +156,7 @@ function rHideTabContent() {
 }
 
 function rShowTabContent(i) {
-  rTabsContent[i].classList.add('showTab', 'fadeReviewTab');
+  rTabsContent[i].classList.add('showTabR', 'fadeReviewTab');
   rTabsContent[i].classList.remove('hideTab');
   rTabs[i].classList.add('active-switcher');
 }
@@ -188,6 +188,7 @@ rTabsParent.addEventListener('click', (event) => {
         rHideTabContent();
         rShowTabContent(currentTab);
         startInterval(); // запуск интервала снова
+        removeReviewContent();
       }
     })
   }
@@ -202,6 +203,7 @@ arrowLeft.addEventListener('click', () => {
   rHideTabContent();
   rShowTabContent(currentTab);
   startInterval();
+  removeReviewContent();
 });
 
 arrowRight.addEventListener('click', () => {
@@ -210,6 +212,7 @@ arrowRight.addEventListener('click', () => {
   rHideTabContent();
   rShowTabContent(currentTab);
   startInterval();
+  removeReviewContent();
 });
 
 let touchStartX = null;
@@ -233,7 +236,6 @@ rTabsParent.addEventListener('touchmove', (event) => {
 
 // Обработчик события touchend
 rTabsParent.addEventListener('touchend', () => {
-  console.log(touchStartX, touchEndX)
   const touchDiff = touchStartX - touchEndX;
 
   if (touchDiff > 0) {
@@ -255,3 +257,33 @@ rTabsParent.addEventListener('touchend', () => {
   touchStartX = null;
   touchEndX = null;
 });
+
+// Reading more function
+const readBtn = document.querySelectorAll('.readmore');
+
+readBtn.forEach((item) => {
+  item.addEventListener('click', (e) => {
+  let target = e.target;
+    target.previousElementSibling.lastElementChild.style.cssText ='display: inline';
+    target.previousElementSibling.firstElementChild.style.cssText ='display: none';
+    target.style.cssText = 'display: none;'
+  })
+})
+
+let content = document.querySelectorAll('.more-text');
+  let query = document.querySelectorAll('.quotes-text');
+
+function removeReviewContent () {
+  content.forEach((item) => {
+    item.style.cssText = 'display: none';
+  })
+
+  query.forEach((item) => {
+    item.style.cssText = 'display: inline';
+  })
+
+  readBtn.forEach((item) => {
+    item.style.cssText = 'display: flex';
+  })
+
+}

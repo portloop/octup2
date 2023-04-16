@@ -468,8 +468,12 @@ button.lead-btn {
     animation: fadeTab 1s;
 }
 
-.showTab {
+.showTabR {
     display: block;
+}
+
+.showTab {
+    display: flex;
 }
 
 .hideTab {
@@ -818,6 +822,7 @@ header {
     z-index: 50;
     background: #fff;
     padding: 15px 0;
+    z-index: 124;
 }
 
 .header-mobile-menu {
@@ -1064,6 +1069,14 @@ select {
     font-size: 15px;
 }
 
+.quotes-text{
+    display: none;
+}
+
+.author-name br {
+    display: none;
+}
+
 
 .author-photo {
     border: 7px solid white;
@@ -1085,11 +1098,11 @@ select {
 
 }
 
-.review-box:nth-child(2) {
+.review-box:nth-child(3) {
     background: #7737FF;
 }
 
-.review-box:nth-child(3) {
+.review-box:nth-child(4) {
     background: #007F82;
 }
 
@@ -1139,7 +1152,7 @@ select {
     top: calc(50% - 16px);
     opacity: 0.4;
     transition: 0.3s;
-    display: none;
+    /* display: none; */
 }
 
 .arrow-left {
@@ -1148,7 +1161,7 @@ select {
     top: calc(50% - 16px);
     opacity: 0.4;
     transition: 0.3s;
-    display: none;
+    /* display: none; */
 }
 
 .arrow-left:hover, .arrow-right:hover{
@@ -1158,4 +1171,17 @@ select {
 
 .review-slider-container {
     position: relative;
+}
+
+
+
+.quote-img {
+    position: absolute;
+    top: -50px;
+    left: 160px;
+    z-index: 123;
+}
+
+.readmore {
+    display: none;
 }

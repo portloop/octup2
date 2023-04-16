@@ -1,5 +1,3 @@
-
-
 @media screen and (max-width: 1470px) {
     .partners-section .slick-list {
         height: 170px;
@@ -26,7 +24,7 @@
 }
 
 @media screen and (max-width: 1330px) {
-   
+
 
     .main-description.integration-block {
         padding-left: 20px;
@@ -49,7 +47,29 @@
     }
 }
 
+@media screen and (max-width: 1317px) {
+    .review-box {
+        padding: 50px 54px;
+        padding-bottom: 30px;
+    }
 
+    .quote-img {
+        left: 8%;
+        top: -65px;
+    }
+
+    .review-box .review-text {
+        margin-bottom: 0;
+    }
+
+    .review-box.sec .review-text {
+        margin-bottom: 10px;
+    }
+
+    .review-box.first-r .review-text {
+        margin-bottom: 20px;
+    }
+}
 
 @media screen and (max-width: 1235px) {
     .main-text {
@@ -60,6 +80,8 @@
     .main-description-container {
         justify-content: space-between;
     }
+
+
 }
 
 @media screen and (max-width: 1190px) {
@@ -73,6 +95,14 @@
 
     .partner-form {
         max-width: 450px;
+    }
+
+    .arrow-left {
+        left: 40px;
+    }
+
+    .arrow-right {
+        right: 40px;
     }
 
 
@@ -147,7 +177,7 @@
     }
 
 
-   
+
 
 
     .lead-section .lead-description {
@@ -316,10 +346,6 @@
         margin-bottom: 100px;
     }
 
-  
-
-    
-
     .lead-section {
         margin-top: 0;
         margin-bottom: 63px;
@@ -327,11 +353,16 @@
 
     .lead-section .lead-section-container {
         flex-direction: column;
+        margin-top: 120px;
     }
 
     .lead-section .lead-text {
         max-width: 800px;
         text-align: center;
+    }
+
+    .review-section-container .review-title {
+        margin-bottom: 90px;
     }
 
     .lead-text .lead-img-menu {
@@ -361,6 +392,12 @@
 
     .lead-section {
         margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .review-box {
+        max-width: 700px;
     }
 }
 
@@ -518,10 +555,20 @@
     .second-tab {
         margin-top: -50px !important;
     }
+}
 
+@media screen and (max-width: 900px) {
+    .review-box {
+        max-width: 650px;
+    }
 
+    .arrow-left {
+        left: 0;
+    }
 
-  
+    .arrow-right {
+        right: 0;
+    }
 }
 
 @media screen and (max-width: 880px) {
@@ -548,6 +595,10 @@
         bottom: -470px;
         z-index: 1;
     }
+
+    .review-section {
+        max-width: 100vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -566,18 +617,91 @@
         margin-top: 50px;
     }
 
+    .quote-img {
+        left: 2%;
+    }
+
     .business-benefits-container .bb-tab-menu .bb-tab-item {
         font-size: 16px;
     }
 
-   
+    .review-switcher {
+        margin-top: 33px;
+    }
+
+    .review-box {
+        max-width: 650px;
+    }
+
+    .arrow-left,
+    .arrow-right {
+        display: none;
+    }
+
+    .switcher-item {
+        width: 12px;
+        height: 12px;
+    }
 
     .carousel-item {
         max-width: 80px;
     }
 }
 
+@media screen and (max-width: 720px) {
+    /* .main-description-container {
+        flex-direction: column;
+    } */
+
+    .main-img {
+        display: none;
+    }
+
+    .main-description-container {
+        padding-top: 50px !important;
+    }
+}
+
 @media screen and (max-width: 710px) {
+    .quotes-text {
+        display: inline;
+    }
+
+    .readmore {
+        display: flex;
+    }
+
+    .more-text {
+        display: none;
+    }
+
+    .review-box .review-text {
+        height: 115px;
+        margin-bottom: 20px;
+    }
+
+    .review-box .readmore {
+        border-bottom: 2px solid #fff;
+        margin-bottom: 25px;
+        display: flex;
+        max-width: 100px;
+    }
+
+    .author-name br {
+        display: block;
+    }
+
+    .review-box .author-name {
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    .review-box {
+        padding-bottom: 40px;
+        height: auto;
+    }
+
+
     .text-title {
         font-size: 26px;
     }
@@ -645,19 +769,7 @@
     }
 }
 
-@media screen and (max-width: 720px) {
-    /* .main-description-container {
-        flex-direction: column;
-    } */
 
-    .main-img {
-        display: none;
-    }
-
-    .main-description-container {
-        padding-top: 50px !important;
-    }
-}
 
 
 @media screen and (max-width: 635px) {
@@ -672,6 +784,8 @@
     .partner-benefit-title {
         font-size: 15px;
     }
+
+
 
     .partner-form input,
     select {
@@ -719,6 +833,18 @@
 
     .text-title {
         font-size: 22px;
+    }
+
+    .review-box {
+        font-size: 15px;
+    }
+
+    .review-box .author-name {
+        font-size: 13px;
+    }
+
+    .review-section-container .text-title {
+        font-size: 27px;
     }
 }
 
@@ -783,6 +909,57 @@
 
 }
 
+@media screen and (max-width: 568px) {
+    .review-box .review-text {
+        margin-bottom: 40px;
+        height: auto;
+    }
+
+    .review-box.first-r .review-text {
+        margin-bottom: 40px;
+    }
+
+    .review-box.sec .review-text {
+        margin-bottom: 40px;
+    }
+
+    .review-box .readmore{
+        max-width: 85px;
+        margin-bottom: 40px;
+    }
+
+    .review-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+    }
+
+    .review-box:nth-child(3) .author-name {
+        margin-left: 15px;
+    }
+
+    .review-box.first-r .author-name {
+        margin-left: 60px;
+    }
+
+   
+    .review-box .author-name{
+        margin-left: 34px;
+        width: 160px;
+        margin-bottom: -50px;
+    }
+
+    .author-photo {
+        max-width: 110px;
+        max-height: 130px;
+        bottom: -25px;
+    }
+
+    .review-switcher{
+        margin-top: 45px;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .header-mobile-menu {
         display: block;
@@ -814,6 +991,17 @@
 
     .partner-benefit-image {
         margin-right: 10px;
+    }
+
+    .quote-img {
+        width: 120px;
+        height: 74px;
+        top: -45px;
+    }
+
+    .quote-img svg {
+        width: 100%;
+        height: 100%;
     }
 
     .partner-form-img svg {
@@ -995,14 +1183,14 @@
 }
 
 @media screen and (max-width: 550px) {
-    .focus-animation svg{
+    .focus-animation svg {
         width: 115%;
         height: 115%;
         transform: translate3d(-20px, 0px, 0px);
 
     }
 
-    .card-title br{
+    .card-title br {
         display: none;
     }
 }
@@ -1021,7 +1209,7 @@
 
 
 @media screen and (max-width: 460px) {
-   
+
 
     .partner-text-desc {
         font-size: 16px;
@@ -1036,7 +1224,7 @@
 }
 
 @media screen and (max-width: 430px) {
-   
+
 
     .main-description-container .main-desc {
         font-size: 15px;
