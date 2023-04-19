@@ -93,8 +93,12 @@
         font-size: 32px;
     }
 
-    .partner-form {
+    .partner-form form {
         max-width: 450px;
+    }
+
+    #lname {
+        max-width: 220px;
     }
 
     .arrow-left {
@@ -228,6 +232,10 @@
 @media screen and (max-width: 1024px) {
     .focus-section .focus-section-container {
         flex-direction: column;
+    }
+
+    .focus-success {
+        justify-content: center;
     }
 
     .focus-section .focus-text {
@@ -781,7 +789,6 @@
         flex-direction: column;
         justify-content: center;
     }
-
     .footer-terms .footer-social {
         margin-left: -10px;
         margin-top: 15px;
@@ -1249,6 +1256,12 @@
     }
 }
 
+@media screen and (max-width: 501px) {
+    .iti__country-list--dropup {
+        width: 347px !important;
+    }
+}
+
 
 @media screen and (max-width: 490px) {
 
@@ -1275,6 +1288,14 @@
         border-radius: 4px;
     }
 
+    .partner-form form {
+        max-width: 375px;
+    }
+
+    #fname, #lname {
+        max-width: 180px;
+    }
+
 }
 
 @media screen and (max-width: 430px) {
@@ -1286,6 +1307,21 @@
 
     .partner-form input,
     select {
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .partner-form form {
+        max-width: 355px;
+    }
+
+    #fname, #lname {
+        max-width: 170px;
+    }
+
+    .input-error {
         font-size: 11px;
     }
 }

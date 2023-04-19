@@ -694,9 +694,13 @@ button.lead-btn {
 }
 
 .lead-form .green-btn {
-    margin-top: 8px;
     width: 347px;
     height: 48px;
+    margin-top: 32px;
+}
+
+.iti-mobile .iti--container{
+    width: 224px;
 }
 
 /* Footer Section Styles */
@@ -911,9 +915,7 @@ a.lead-btn {
     border: 2px solid transparent;
 }
 
-.field.error {
-    border: 2px solid rgb(241, 81, 81);
-}
+
 
 .error {
     border: 2px solid rgb(241, 81, 81);
@@ -1009,11 +1011,12 @@ select {
 .full-name {
     display: flex;
     max-width: 100%;
+    justify-content: space-between;
 
 }
 
-.full-name input:first-child {
-    max-width: 225px;
+.input-field .full-name input:first-child {
+    max-width: 225px !important;
     margin-right: 15px;
 }
 
@@ -1278,4 +1281,115 @@ select {
         transform: translate(0, 50px);
         opacity: 0;
     }
+}
+
+/* Success submit form  */
+.lead-form-success-submit {
+    width: 347px;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #007F82;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.success-text {
+    max-width: 260px;
+    margin: 0 auto;
+}
+
+
+/* Input Validation  */
+.input-field {
+    position: relative;
+}
+
+.showError {
+    display: block;
+    animation: showInputError 1s;
+}
+
+@keyframes showInputError {
+    From {
+        opacity: 0;
+    }
+    To {
+        opacity: 1;
+    }
+    
+}
+
+.input-error {
+    font-size: 13px;
+    line-height: 18px;
+    color: #DB2059;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    display: none;
+}
+
+
+
+.field.error {
+    border: 2px solid #DB2059 !important;
+}
+
+.FadeOutForm {
+    display: none;
+}
+
+.successSubmit {
+    display: flex;
+}
+
+.focus-success {
+    font-size: 15px;
+line-height: 20px;
+color: #007F82;
+display: flex;
+align-items: center;
+margin-left: -5px;
+margin-bottom: 30px;
+display: none;
+}
+
+/* Partner success submit  */
+.partner-success-submit{
+    width: 347px;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #007F82;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.partner-form form {
+    width: 551px;
+}
+
+#fname {
+    width: 225px;
+}
+
+#lname {
+    width: 311px;
+}
+
+#phone {
+    margin-bottom: 32px;
+}
+
+#phoneErrorSpan{
+    bottom: -20px;
+}
+
+.iti__country-list--dropup {
+    max-width: 347px;
 }

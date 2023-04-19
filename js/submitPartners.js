@@ -1,6 +1,10 @@
 'use strict'
 
 window.addEventListener('DOMContentLoaded', () => {
+
+    
+
+
     // Smooth FadeIn block on scroll 
     function onEntry(entry) {
         entry.forEach(change => {
@@ -34,7 +38,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
     fields.forEach(item => {
         item.addEventListener('input', () => {
-            item.classList.remove('error')
+            item.classList.remove('error');
+            let itemError = item.nextElementSibling
+            $(itemError).fadeOut();
         })
     })
 
@@ -50,69 +56,86 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    function selecBusinessValidate() {
-        if (typeBusinessSelect.value == 'not') {
-            typeBusinessSelect.classList.add('error')
-            return true;
-        } else {
-            return false
-        }
-    }
-
-    typeBusinessSelect.addEventListener('change', (e) => {
-        typeBusinessSelect.classList.remove('error');
-        typeBusinessSelect.options[0].removeAttribute('selected')
-        typeBusinessSelect.selectedIndex = e.target.selectedIndex;
-    })
-
-    function selectGoalValidate() {
-        if (goalSelect.value == 'not') {
-            goalSelect.classList.add('error')
-            return true;
-        } else {
-            return false
-        }
-    }
-
-    goalSelect.addEventListener('change', (e) => {
-        goalSelect.classList.remove('error')
-        goalSelect.options[0].removeAttribute('selected')
-        goalSelect.selectedIndex = e.target.selectedIndex;
-    })
 
 
 
 
+    let typeBusinessSelectError = typeBusinessSelect.nextElementSibling;
+    let goalSelectError = goalSelect.nextElementSibling;
 
     submitPartner.addEventListener('click', (event) => {
+
+        function selecBusinessValidate() {
+            if (typeBusinessSelect.value == 'not') {
+                typeBusinessSelect.classList.add('error')
+                return true;
+            } else {
+                return false
+            }
+        }
+
+        typeBusinessSelect.addEventListener('change', (e) => {
+            typeBusinessSelect.classList.remove('error');
+            typeBusinessSelect.options[0].removeAttribute('selected')
+            typeBusinessSelect.selectedIndex = e.target.selectedIndex;
+            $(typeBusinessSelectError).fadeOut();
+        })
+
+        function selectGoalValidate() {
+            if (goalSelect.value == 'not') {
+                goalSelect.classList.add('error')
+                return true;
+            } else {
+                return false
+            }
+        }
+
+        goalSelect.addEventListener('change', (e) => {
+            goalSelect.classList.remove('error')
+            goalSelect.options[0].removeAttribute('selected')
+            goalSelect.selectedIndex = e.target.selectedIndex;
+            $(goalSelectError).fadeOut();
+        })
+
         event.preventDefault();
         let hasError = false;
 
         if (!fName.value) {
             hasError = true;
+            let fnameError = fName.nextElementSibling;
             fName.classList.add('error')
+            $(fnameError).fadeIn();
         }
 
         if (!lName.value) {
             hasError = true;
+            let lnameError = lName.nextElementSibling;
             lName.classList.add('error')
+            $(lnameError).fadeIn();
         }
 
         if (!email.value || !validateEmail(email.value)) {
             hasError = true;
-            email.classList.add('error');
+            let emailError = email.nextElementSibling;
+            email.classList.add('error')
+            $(emailError).fadeIn();
         }
 
         if (!website.value) {
             hasError = true;
+            let websiteError = website.nextElementSibling;
             website.classList.add('error')
+            $(websiteError).fadeIn();
         }
         if (selectGoalValidate()) {
             hasError = true;
+            $(goalSelectError).fadeIn();
         }
 
         if (selecBusinessValidate()) {
             hasError = true;
+            let typeBusinessSelectError = typeBusinessSelect.nextElementSibling;
+            $(typeBusinessSelectError).fadeIn();
         }
 
         if (!hasError) {
@@ -132,8 +155,12 @@ window.addEventListener('DOMContentLoaded', () => {
                 },
             })
                 .done(function (response) {
+                    $('.partner-form').fadeOut();
+                    $('.partner-success-submit').fadeIn();
                 })
                 .fail(function (response) {
+                    $('.partner-form').fadeOut();
+                    $('.partner-success-submit').fadeIn();
                 })
             form.reset();
         }
