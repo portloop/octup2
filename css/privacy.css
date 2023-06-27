@@ -39,3 +39,11 @@
 .tb {
     font-family: 'PoppinsB', sans-serif;
 }
+
+.lower-alpha-list {
+    list-style-type: lower-alpha;
+}
+
+.lower-greek {
+    list-style-type: upper-roman;
+}

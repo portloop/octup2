@@ -1,0 +1,5 @@
+header {padding-top: 63px;}.header-banner {padding: 8px 0;position: relative;
+    background: linear-gradient(242.08deg, #7737FF 13.71%, #5B00CE 82.97%);
+    position: fixed;top: 0;z-index: 999;width: 100%;}.header-banner-container {display: flex;align-items: center;justify-content: center;max-width: 900px;margin: 0 auto;}@media screen and (max-width: 800px) {.header-banner-container {flex-direction: column;}header {padding-top: 93px;}}@media screen and (max-width: 568px) {header {padding-top: 113px;}.header-banner-container {max-width: 300px;text-align: center;}}
+
+

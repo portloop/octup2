@@ -1,10 +1,6 @@
 'use strict'
 
 window.addEventListener('DOMContentLoaded', () => {
-
-    
-
-
     // Smooth FadeIn block on scroll 
     function onEntry(entry) {
         entry.forEach(change => {
@@ -19,7 +15,6 @@ window.addEventListener('DOMContentLoaded', () => {
     for (let elm of elements) {
         observer.observe(elm);
     }
-
 
     let submitPartner = document.querySelector('#submitPartner'),
         fName = document.querySelector('#fname'),
@@ -44,7 +39,6 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     })
 
-
     function validateEmail(sEmail) {
         var filter = /^([\w-\.\+]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
         if (filter.test(sEmail)) {
@@ -54,11 +48,6 @@ window.addEventListener('DOMContentLoaded', () => {
             return false;
         }
     }
-
-
-
-
-
 
     let typeBusinessSelectError = typeBusinessSelect.nextElementSibling;
     let goalSelectError = goalSelect.nextElementSibling;
@@ -142,7 +131,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             $.ajax({
                 method: 'POST',
-                url: './submitPartner.php',
+                url: './php-scripts/submitPartner.php',
                 data: {
                     firstName: fName.value,
                     lastName: lName.value,

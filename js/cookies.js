@@ -7,16 +7,15 @@ document.addEventListener('DOMContentLoaded', () => {
   cookiesBlock = document.querySelector('.coockie-agreement');
 
 acceptAgreement.addEventListener('click', () => {
-  sessionStorage.setItem('acceptCookie', 1);
+  localStorage.setItem('acceptCookie', 1);
   cookiesBlock.classList.add('hideCookie');
   setTimeout(() => {
     cookiesBlock.style.cssText = 'display: none;'
   }, 800);
 });
 
-
 declineAgreement.addEventListener('click', () => {
-  sessionStorage.setItem('declineCookie', 1);
+  localStorage.setItem('declineCookie', 1);
   cookiesBlock.classList.add('hideCookie');
   setTimeout(() => {
     cookiesBlock.style.cssText = 'display: none;'
@@ -24,17 +23,15 @@ declineAgreement.addEventListener('click', () => {
 });
 
 closeCookies.addEventListener('click', () => {
-  sessionStorage.setItem('closeCookie', 1);
+  localStorage.setItem('closeCookie', 1);
   cookiesBlock.classList.add('hideCookie');
   setTimeout(() => {
     cookiesBlock.style.cssText = 'display: none;'
   }, 800);
 });
 
-console.log(!sessionStorage.getItem('closeCookie') || !sessionStorage.getItem('acceptCookie') || !sessionStorage.getItem('declineCookie'))
-
 function checkViewCookies () {
-  if(!sessionStorage.getItem('closeCookie') && !sessionStorage.getItem('acceptCookie') && !sessionStorage.getItem('declineCookie')) {
+  if(!localStorage.getItem('closeCookie') && !localStorage.getItem('acceptCookie') && !localStorage.getItem('declineCookie')) {
     cookiesBlock.style.cssText = 'display: block;'
   }
 }
